@@ -32,7 +32,7 @@ const App = (props) => {
       </div>
       <footer id="footer" className="has-background-primary has-text-centered">
         <div className="container is-aligned-center">
-          <Link className="button is-medium is-primary" to="/map">
+          <Link className="button is-medium is-primary is-hidden" to="/map">
             <span>
               <i className="fa fa-map"></i> Map
             </span>
